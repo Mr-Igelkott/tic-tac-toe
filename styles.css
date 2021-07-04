@@ -1,16 +1,16 @@
 #game {
-    width: 600px;
-    height: 600px;
-    background: aquamarine;
+  width: 600px;
+  height: 600px;
+  background: aquamarine;
 }
 
 .block {
-    width: 200px;
-    height: 200px;
-    float: left;
-    border: 3px solid white;
-    box-sizing: border-box;
-    line-height: 150px;
-    text-align: center;
-    font-size: 180px;
+  width: 200px;
+  height: 200px;
+  float: left;
+  border: 3px solid white;
+  box-sizing: border-box;
+  line-height: 150px;
+  text-align: center;
+  font-size: 180px;
 }

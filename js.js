@@ -18,7 +18,6 @@ document.getElementById("reset").addEventListener("click", function () {
 });
 
 document.getElementById("game").addEventListener("click", function (event) {
-  //console.log(event.target.innerHTML);
   const index = [...cells].indexOf(event.target);
   if (index !== -1 && fieldState[index] === null) {
     if (step % 2 === 0) {
